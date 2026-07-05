@@ -1,0 +1,22 @@
+{
+  "name": "prueba_parcial2aw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@nestjs/common": "^11.1.27",
+    "@nestjs/core": "^7.5.5",
+    "@nestjs/platform-express": "^11.1.27"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.23",
+    "typescript": "^5.1.6"
+  }
+}

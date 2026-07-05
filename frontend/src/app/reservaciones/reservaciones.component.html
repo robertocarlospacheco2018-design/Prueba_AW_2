@@ -1,0 +1,12 @@
+<div class="card-grid">
+  <div class="evento-card" *ngFor="let evento of eventos">
+    <h3>{{ evento.nombre }}</h3>
+
+    <p>
+      <strong>Ubicación:</strong>
+      {{ evento.ubicacion }}
+    </p>
+
+    <p>{{ evento.descripcion }}</p>
+  </div>
+</div>
